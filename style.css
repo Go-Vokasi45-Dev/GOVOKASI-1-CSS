@@ -105,7 +105,11 @@
 
 .HOMEPAGE-LETI .rectangle-5 {
   border-color: #ffffff;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(247, 249, 251, 0) 57.5%, rgb(247, 249, 251) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(247, 249, 251, 0) 57.5%,
+    rgb(247, 249, 251) 100%
+  );
   position: absolute;
   width: 602px;
   height: 602px;
@@ -573,10 +577,10 @@
 
 .HOMEPAGE-LETI .IMG-hero {
   position: absolute;
-  width: 884px;
-  height: 900px;
+  width: 750px;
+  height: 700px;
   top: 0;
-  left: 556px;
+  left: 650px;
 }
 
 .HOMEPAGE-LETI .frame-19 {
@@ -689,7 +693,11 @@
 
 .HOMEPAGE-LETI .rectangle-6 {
   border-color: #ffffff;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 57.5%, rgb(255, 255, 255) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0) 57.5%,
+    rgb(255, 255, 255) 100%
+  );
   position: absolute;
   width: 602px;
   height: 602px;
@@ -995,7 +1003,11 @@
   height: 731px;
   top: 0;
   left: 0;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(46, 63, 127, 0) 57.5%, rgb(46, 63, 127) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(46, 63, 127, 0) 57.5%,
+    rgb(46, 63, 127) 100%
+  );
 }
 
 .HOMEPAGE-LETI .text-wrapper-20 {
@@ -1148,7 +1160,8 @@
   background-color: #3663bc;
   border-radius: 13.29px;
   overflow: hidden;
-  box-shadow: 0px 6.05px 14.51px #00000024, 0px 1.21px 4.84px #00000036, 0px 7.26px 16.93px #00000047;
+  box-shadow: 0px 6.05px 14.51px #00000024, 0px 1.21px 4.84px #00000036,
+    0px 7.26px 16.93px #00000047;
 }
 
 .HOMEPAGE-LETI .rectangle-11 {
@@ -1281,7 +1294,11 @@
 
 .HOMEPAGE-LETI .rectangle-13 {
   border-color: #f8fafc;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(248, 250, 252, 0) 57.5%, rgb(248, 250, 252) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(248, 250, 252, 0) 57.5%,
+    rgb(248, 250, 252) 100%
+  );
   position: absolute;
   width: 602px;
   height: 602px;
