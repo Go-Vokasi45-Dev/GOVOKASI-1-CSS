@@ -475,7 +475,7 @@
 }
 
 .goheroes {
-  color: var(--yellow)
+  color: var(--yellow);
 }
 
 .HOMEPAGE-LETI .text-wrapper-10 {
@@ -644,6 +644,18 @@
   font-family: var(--paragraph-medium-regular-desktop-font-family);
   font-weight: var(--paragraph-medium-regular-desktop-font-weight);
   color: var(--dark-04);
+  font-size: var(--paragraph-medium-regular-desktop-font-size);
+  letter-spacing: var(--paragraph-medium-regular-desktop-letter-spacing);
+  line-height: var(--paragraph-medium-regular-desktop-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraph-medium-regular-desktop-font-style);
+}
+
+.supported-by {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraph-medium-regular-desktop-font-family);
+  color: var(--white);
   font-size: var(--paragraph-medium-regular-desktop-font-size);
   letter-spacing: var(--paragraph-medium-regular-desktop-letter-spacing);
   line-height: var(--paragraph-medium-regular-desktop-line-height);
