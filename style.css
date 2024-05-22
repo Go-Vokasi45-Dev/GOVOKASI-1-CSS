@@ -467,11 +467,15 @@
   font-family: var(--heading-h1-desktop-font-family);
   color: var(--white);
   font-size: var(--heading-h1-desktop-font-size);
-  line-height: var(--heading-h1-desktop-line-height);
+  line-height: var(--heading-h6-desktop-line-height);
   position: relative;
   font-weight: var(--heading-h1-desktop-font-weight);
   letter-spacing: var(--heading-h1-desktop-letter-spacing);
   font-style: var(--heading-h1-desktop-font-style);
+}
+
+.goheroes {
+  color: var(--yellow)
 }
 
 .HOMEPAGE-LETI .text-wrapper-10 {
