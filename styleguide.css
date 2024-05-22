@@ -1,4 +1,7 @@
 :root {
+  --main-color: #110f5e;
+  --white: #ffff;
+  --yellow: #fff500;
   --d-9d-9d-9: rgba(137, 74, 142, 1);
   --dark-04: rgba(60, 72, 96, 1);
   --dark-03: rgba(77, 95, 128, 1);
@@ -234,16 +237,20 @@
   --paraghraph-large-semibold-line-height: 139.9999976158142%;
   --paraghraph-large-semibold-font-style: normal;
   --soft-tiny: 0px 2px 5px 0px rgba(0, 0, 0, 0.14);
-  --large-tiny: 0px 5px 12px 0px rgba(0, 0, 0, 0.14), 0px 1px 4px 0px rgba(0, 0, 0, 0.21),
-    0px 6px 14px 0px rgba(0, 0, 0, 0.28);
-  --soft-small: 0px 0.3320707678794861px 1.5496636629104614px 0px rgba(53, 64, 92, 0.01),
+  --large-tiny: 0px 5px 12px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 4px 0px rgba(0, 0, 0, 0.21), 0px 6px 14px 0px rgba(0, 0, 0, 0.28);
+  --soft-small: 0px 0.3320707678794861px 1.5496636629104614px 0px
+      rgba(53, 64, 92, 0.01),
     0px 0.7980122566223145px 3.724057197570801px 0px rgba(53, 64, 92, 0.02),
     0px 1.5025862455368042px 7.012069225311279px 0px rgba(53, 64, 92, 0.03),
     0px 2.680356979370117px 12.508333206176758px 0px rgba(53, 64, 92, 0.03),
-    0px 5.013313293457031px 23.395462036132812px 0px rgba(53, 64, 92, 0.04), 0px 12px 56px 0px rgba(53, 64, 92, 0.05);
-  --large-small: 0px 5.008734226226807px 7.942026138305664px 0px rgba(0, 0, 0, 0.18),
+    0px 5.013313293457031px 23.395462036132812px 0px rgba(53, 64, 92, 0.04),
+    0px 12px 56px 0px rgba(53, 64, 92, 0.05);
+  --large-small: 0px 5.008734226226807px 7.942026138305664px 0px
+      rgba(0, 0, 0, 0.18),
     0px 12.0366849899292px 19.085792541503906px 0px rgba(0, 0, 0, 0.13),
     0px 22.66400909423828px 35.93685531616211px 0px rgba(0, 0, 0, 0.11),
     0px 40.42871856689453px 64.10520935058594px 0px rgba(0, 0, 0, 0.09),
-    0px 75.61746978759766px 119.90174102783203px 0px rgba(0, 0, 0, 0.07), 0px 181px 287px 0px rgba(0, 0, 0, 0.05);
+    0px 75.61746978759766px 119.90174102783203px 0px rgba(0, 0, 0, 0.07),
+    0px 181px 287px 0px rgba(0, 0, 0, 0.05);
 }

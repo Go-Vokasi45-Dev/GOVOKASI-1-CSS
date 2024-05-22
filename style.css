@@ -27,8 +27,8 @@
   height: 980px;
   top: 30px;
   left: 0;
-  background-color: var(--darklines);
-  opacity: 0.5;
+  background-color: var(--main-color);
+  /* opacity: 0.5; */
 }
 
 .HOMEPAGE-LETI .frame {
@@ -79,7 +79,7 @@
   margin-bottom: -0.72px;
   margin-left: -0.72px;
   border: 1.44px solid;
-  border-color: var(--purple-03);
+  border-color: var(--main-color);
 }
 
 .HOMEPAGE-LETI .rectangle-3 {
@@ -89,7 +89,7 @@
   margin-top: -0.72px;
   margin-bottom: -0.72px;
   border: 1.44px solid;
-  border-color: var(--purple-03);
+  border-color: var(--main-color);
 }
 
 .HOMEPAGE-LETI .rectangle-4 {
@@ -100,7 +100,7 @@
   margin-bottom: -0.72px;
   margin-right: -0.72px;
   border: 1.44px solid;
-  border-color: var(--purple-03);
+  border-color: var(--main-color);
 }
 
 .HOMEPAGE-LETI .rectangle-5 {
@@ -464,14 +464,14 @@
 .HOMEPAGE-LETI .text-wrapper-9 {
   width: 550px;
   margin-top: -1px;
-  font-family: var(--heading-h6-desktop-font-family);
-  color: var(--purple-02);
-  font-size: var(--heading-h6-desktop-font-size);
-  line-height: var(--heading-h6-desktop-line-height);
+  font-family: var(--heading-h1-desktop-font-family);
+  color: var(--white);
+  font-size: var(--heading-h1-desktop-font-size);
+  line-height: var(--heading-h1-desktop-line-height);
   position: relative;
-  font-weight: var(--heading-h6-desktop-font-weight);
-  letter-spacing: var(--heading-h6-desktop-letter-spacing);
-  font-style: var(--heading-h6-desktop-font-style);
+  font-weight: var(--heading-h1-desktop-font-weight);
+  letter-spacing: var(--heading-h1-desktop-letter-spacing);
+  font-style: var(--heading-h1-desktop-font-style);
 }
 
 .HOMEPAGE-LETI .text-wrapper-10 {
@@ -479,7 +479,7 @@
   width: 550px;
   font-family: var(--heading-h1-desktop-font-family);
   font-weight: var(--heading-h1-desktop-font-weight);
-  color: var(--dark-04);
+  color: var(--yellow);
   font-size: var(--heading-h1-desktop-font-size);
   letter-spacing: var(--heading-h1-desktop-letter-spacing);
   line-height: var(--heading-h1-desktop-line-height);
@@ -490,9 +490,9 @@
   position: relative;
   width: 550px;
   font-family: var(--paragraph-medium-regular-desktop-font-family);
-  font-weight: var(--paragraph-medium-regular-desktop-font-weight);
-  color: var(--dark-04);
-  font-size: var(--paragraph-medium-regular-desktop-font-size);
+  font-weight: 400px;
+  color: var(--white);
+  font-size: 20px;
   letter-spacing: var(--paragraph-medium-regular-desktop-letter-spacing);
   line-height: var(--paragraph-medium-regular-desktop-line-height);
   font-style: var(--paragraph-medium-regular-desktop-font-style);
@@ -578,7 +578,7 @@
 .HOMEPAGE-LETI .IMG-hero {
   position: absolute;
   width: 750px;
-  height: 700px;
+  height: 730px;
   top: 0;
   left: 650px;
 }
