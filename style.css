@@ -516,7 +516,7 @@
   padding: 18px 24px;
   position: relative;
   flex: 0 0 auto;
-  background-color: #3c52a4;
+  background-color: var(--yellow);
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid;
@@ -524,6 +524,20 @@
 }
 
 .HOMEPAGE-LETI .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Public Sans", Helvetica;
+  font-weight: 700;
+  color: var(--dark-04);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.button-hero-1 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -537,6 +551,18 @@
   white-space: nowrap;
 }
 
+.button-hero-1 {
+  position: relative;
+  width: 550px;
+  font-family: var(--paragraph-medium-regular-desktop-font-family);
+  font-weight: 400px;
+  color: var(--yellow);
+  font-size: 20px;
+  letter-spacing: var(--paragraph-medium-regular-desktop-letter-spacing);
+  line-height: var(--paragraph-medium-regular-desktop-line-height);
+  font-style: var(--paragraph-medium-regular-desktop-font-style);
+}
+
 .HOMEPAGE-LETI .button-3 {
   all: unset;
   box-sizing: border-box;
@@ -546,7 +572,7 @@
   padding: 18px 24px;
   position: relative;
   flex: 0 0 auto;
-  background-color: #ffffff;
+  background-color: var(--yellow);
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid;
@@ -564,6 +590,21 @@
   font-family: var(--paraghraph-medium-semibold-font-family);
   font-weight: var(--paraghraph-medium-semibold-font-weight);
   color: var(--dark-04);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-size: var(--paraghraph-medium-semibold-font-size);
+  text-align: center;
+  letter-spacing: var(--paraghraph-medium-semibold-letter-spacing);
+  line-height: var(--paraghraph-medium-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--paraghraph-medium-semibold-font-style);
+}
+
+.button-hero-2 {
+  font-family: var(--paraghraph-medium-semibold-font-family);
+  font-weight: var(--paraghraph-medium-semibold-font-weight);
+  color: var(--yellow);
   position: relative;
   width: fit-content;
   margin-top: -1px;
