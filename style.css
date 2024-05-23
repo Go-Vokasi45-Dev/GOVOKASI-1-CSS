@@ -1,3 +1,4 @@
+
 .gratis {
   color: #0036ff;
 }
@@ -383,7 +384,6 @@
   letter-spacing: 0;
   line-height: 22.4px;
 }
-
 .HOMEPAGE-LETI .button {
   all: unset;
   box-sizing: border-box;
@@ -394,28 +394,41 @@
   padding: 14px 22px;
   position: relative;
   flex: 0 0 auto;
-  background-color: #3c52a4;
+  background-color: var(--yellow);
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid;
+  width: 20%;
 }
 
 .HOMEPAGE-LETI .button-bond {
   display: inline-flex;
   height: 24px;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   position: relative;
+  width: 100%; /* Ensure the bond takes the full width of the button */
+  font-family: var(--paraghraph-medium-semibold-font-family);
+  font-weight: var(--paraghraph-medium-semibold-font-weight);
+  color: #000000; /* Change text color to black */
+  font-size: var(--paraghraph-medium-semibold-font-size);
+  text-align: center;
+  letter-spacing: var(--paraghraph-medium-semibold-letter-spacing);
+  line-height: var(--paraghraph-medium-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--paraghraph-medium-semibold-font-style);
 }
 
 .HOMEPAGE-LETI .button-2 {
-  all: unset;
+  z-index: 9998;
   box-sizing: border-box;
-  position: relative;
-  width: fit-content;
+  display: flex; /* Ensure the button text is displayed */
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
   font-family: var(--paraghraph-medium-semibold-font-family);
   font-weight: var(--paraghraph-medium-semibold-font-weight);
-  color: #ffffff;
+  color: #000000; /* Change text color to black */
   font-size: var(--paraghraph-medium-semibold-font-size);
   text-align: center;
   letter-spacing: var(--paraghraph-medium-semibold-letter-spacing);
