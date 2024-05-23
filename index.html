@@ -1509,58 +1509,85 @@
             </div>
           </div>
           <div class="frame-59">
-            <p class="text-wrapper-49">
+            <p class="text-wrapper-49 question">
               Kapan dan dimana EPS TOPIK dilaksanakan?
             </p>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
-            <p class="text-wrapper-49">
+            <p class="text-wrapper-49 question">
               Apa saja syarat pendaftaran mengikuti EPS TOPIK?
             </p>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
-            <p class="text-wrapper-49">
+            <p class="text-wrapper-49 question">
               Bagaimana jika belum pernah belajar bahasa Korea sama sekali?
             </p>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
-            <p class="text-wrapper-49">
+            <p class="text-wrapper-49 question">
               Bagaimana metode pembelajaran kelas di LETI?
             </p>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
-            <p class="text-wrapper-49">
+            <p class="text-wrapper-49 question">
               Apakah murid bisa melakukan konsultasi dengan tutor?
             </p>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
-            <p class="text-wrapper-49">
+            <p class="text-wrapper-49 question">
               Apa tersedia buku fisik terkait materi pembelajaran?
             </p>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
-            <p class="text-wrapper-49">
+            <p class="text-wrapper-49 question">
               Jika ingin mengikuti program G to G kelas apa yang harus diikuti?
             </p>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
-            <p class="text-wrapper-49">
+            <p class="text-wrapper-49 question">
               Bagaimana peluang karir untuk bekerja di Korea?
             </p>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
-            <p class="text-wrapper-49">
+            <p class="text-wrapper-49 question">
               Apa biaya pembayaran di LETI bisa dicicil?
             </p>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
         </div>
         <div class="overlap-8">
@@ -1627,25 +1654,6 @@
         </div>
       </div>
     </div>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const questions = document.querySelectorAll(".frame-58 .question");
-        questions.forEach((question) => {
-          question.addEventListener("click", function () {
-            const answer = question.nextElementSibling.nextElementSibling; // Select the answer correctly
-            answer.classList.toggle("show");
-            answer.classList.toggle("drop-down");
-
-            // Toggle margin-bottom for the next question
-            const nextQuestion = question.parentElement.nextElementSibling;
-            if (nextQuestion) {
-              nextQuestion.style.marginTop = answer.classList.contains("show")
-                ? "70px"
-                : "0";
-            }
-          });
-        });
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>

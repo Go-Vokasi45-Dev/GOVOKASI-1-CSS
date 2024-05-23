@@ -2373,12 +2373,13 @@
 
 /* Existing CSS for answer and question */
 .HOMEPAGE-LETI .answer {
+  margin-top: 5px;
   display: none;
-  padding: 18px 26px; /* Match padding of frame-59 */
+  padding: 18px 26px;
   align-self: stretch;
   width: 100%;
-  border-radius: 8px; /* Match border radius of frame-59 */
-  border: 1px solid var(--darklines); /* Match border color of frame-59 */
+  border-radius: 8px;
+  border: 1px solid var(--darklines);
   position: relative;
   font-family: var(--heading-h6-bold-desktop-font-family);
   font-weight: var(--heading-h6-bold-desktop-font-weight);
@@ -2388,6 +2389,10 @@
   line-height: var(--heading-h6-bold-desktop-line-height);
   font-style: var(--heading-h6-bold-desktop-font-style);
   margin-bottom: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .HOMEPAGE-LETI .answer p {
