@@ -1,4 +1,3 @@
-
 .gratis {
   color: #0036ff;
 }
@@ -2109,6 +2108,11 @@
   border-color: var(--darklines);
   position: relative;
   flex: 0 0 auto;
+  transition: margin 0.3s ease; /* Add transition for smooth animation */
+}
+
+.HOMEPAGE-LETI .frame-58 .frame-59:not(:last-child) {
+  margin-bottom: 0px; /* Add margin between questions */
 }
 
 .HOMEPAGE-LETI .text-wrapper-49 {
@@ -2365,4 +2369,47 @@
   overflow: hidden;
   border: 1px solid;
   border-color: var(--darklines);
+}
+
+/* Existing CSS for answer and question */
+.HOMEPAGE-LETI .answer {
+  display: none;
+  padding: 18px 26px; /* Match padding of frame-59 */
+  align-self: stretch;
+  width: 100%;
+  border-radius: 8px; /* Match border radius of frame-59 */
+  border: 1px solid var(--darklines); /* Match border color of frame-59 */
+  position: relative;
+  font-family: var(--heading-h6-bold-desktop-font-family);
+  font-weight: var(--heading-h6-bold-desktop-font-weight);
+  color: var(--dark-04);
+  font-size: var(--heading-h6-bold-desktop-font-size);
+  letter-spacing: var(--heading-h6-bold-desktop-letter-spacing);
+  line-height: var(--heading-h6-bold-desktop-line-height);
+  font-style: var(--heading-h6-bold-desktop-font-style);
+  margin-bottom: 10px;
+}
+
+.HOMEPAGE-LETI .answer p {
+  margin: 0; /* Remove default margin for paragraph inside answer */
+}
+
+.HOMEPAGE-LETI .answer.show {
+  display: block;
+}
+
+.HOMEPAGE-LETI .answer.drop-down {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+
+.HOMEPAGE-LETI .frame-58 .frame-59 {
+  cursor: pointer;
+}
+
+.HOMEPAGE-LETI .frame-58 .frame-59:hover {
+  background-color: #f0f0f0;
 }

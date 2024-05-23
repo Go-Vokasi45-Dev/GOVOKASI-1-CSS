@@ -1535,12 +1535,18 @@
         </div>
         <div class="frame-58">
           <div class="frame-59">
-            <div class="text-wrapper-49">Apa itu LETI?</div>
+            <div class="text-wrapper-49 question">Apa itu LETI?</div>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>LETI adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
-            <div class="text-wrapper-49">Apa itu EPS TOPIK?</div>
+            <div class="text-wrapper-49 question">Apa itu EPS TOPIK?</div>
             <img class="img" src="img/vuesax-outline-arrow-up-11.svg" />
+            <div class="answer">
+              <p>EPS TOPIK adalah...</p>
+            </div>
           </div>
           <div class="frame-59">
             <p class="text-wrapper-49">
@@ -1661,6 +1667,25 @@
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const questions = document.querySelectorAll(".frame-58 .question");
+        questions.forEach((question) => {
+          question.addEventListener("click", function () {
+            const answer = question.nextElementSibling.nextElementSibling; // Select the answer correctly
+            answer.classList.toggle("show");
+            answer.classList.toggle("drop-down");
+
+            // Toggle margin-bottom for the next question
+            const nextQuestion = question.parentElement.nextElementSibling;
+            if (nextQuestion) {
+              nextQuestion.style.marginTop = answer.classList.contains("show")
+                ? "70px"
+                : "0";
+            }
+          });
+        });
+      });
+    </script>
   </body>
-  <script></script>
 </html>
